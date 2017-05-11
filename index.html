@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Hangman</h1>
+        <p>Guess Batman's villains!</p>
+    </div>
+    <div class="panel" id="instructions">
+        <div class="panel-heading">
+            <h3 class="panel-title">Instructions</h3>
+        </div>
+        <div class="panel-body">
+           <p>It's simple, guess the villain and win!</p>
+           <br>
+           <p>Press any key to get started!</p>
+        </div>
+    </div>
+    <br>
+    <div id="word">
+        <h3>Can you guess the villain?</h>
+        <span id="gameArea"></span>
+    </div>
+    <br>
+    <div class="panel" id="stats">
+        <div class="panel-heading">
+            <h3 class="panel-title">Game Stats</h3>
+        </div>
+        <div class="panel-body">
+            <div>
+                <h4><strong>Letters Guessed: </strong></h4><span id="incorrectGuesses"></span>
+            </div>
+            <div>
+                <h4><strong>Numbers of Guesses Remaining: </strong></h4><span id="lives"></span>
+            </div>
+            <div>
+                <h4><strong>Wins: </strong></h4><span id="wins"></span>
+            </div>
+            <div>
+                <h4><strong>Losses: </strong></h4><span id="losses"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

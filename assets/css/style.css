@@ -1,0 +1,43 @@
+body {
+	background-image: url("../images/villains.jpg");
+}
+
+.jumbotron {
+	background-image: url("../images/gotham.jpg");
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+p {
+	font-weight: bold;
+}
+
+.panel-title {
+	font-weight: bold;
+}
+
+#instructions {
+	text-align: center;
+	width: 400px;
+	height: 150px;
+	margin: auto;
+}
+.panel {
+	width: 400px;
+	margin: auto;
+}
+
+#stats {
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10%;
+}
+
+#word {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
